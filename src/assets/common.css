@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+/* 宽高 */
+.full100 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/* font */
+.fw {
+    font-weight: 700;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f22 {
+    font-size: 22px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-20-0 {
+    padding: 20px 0px;
+}
+
+.p-0-50 {
+    padding: 0 50px;
+}
+
+/* margin */
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-20-0 {
+    margin: 20px 0;
+}
+
+/* padding */
+.p-t-10 {
+    padding-top: 10px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+/* fx布局 */
+.fx {
+    display: flex;
+}
+
+.fx-c {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 垂直、水平居中 */
+.fx-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fx-c-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fx-r-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fx-s-a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fx-s-b {
+    display: flex;
+    justify-content: space-between;
+}
